@@ -1,80 +1,49 @@
 ---
-title: "Title of your work"
-author: "Your Name"
+title: "Econometrics Workshop 2023"
+# author: "Your Name"
 
 execute:
   echo: false
   
-bibliography: references.bib
+# bibliography: references.bib
 ---
 
-> **Abstract.** This is a suggested formatting for your abstract. This **quarto** document is a template for your report. It includes some basic ways of working with such documents. You are invited to learn more about developing online reports with this technology. 
->
-> **Keywords.** bsvars, impulse responses, quarto, R, tax shocks
+This is a website of the Econometrics Workshop at the Department of Economics of the University of Melbourne.
 
-# Introduction
+> **Venue:** \
+> The Salon at Abbotsford Convent\
+> [1 St Heliers Street, Abbotsford 3067](https://maps.app.goo.gl/QcvH5am46RfHyEhF8)
+> 
+> **Time:** Friday, 24 November, 2023
 
-This is a template repository for the Research Report for **Macroeconometrics**. Learn more about about developing online reports with **quarto** at [quarto.org](https://quarto.org/).
+## Program
 
-## A Simple Example
+ 9:00 - 9:30 | *Morning coffee at*
 
-This is a Quarto document in which we can cite the **bsvars** package by @wozniakBsvarsBayesianEstimation2022. Look for more info at [package CRAN website](https://cran.r-project.org/package=bsvars).
+ 9:30 - 10:30 | [Myoung-Jae Lee](https://sites.google.com/site/mjleeku/) (Korea University)
 
-Simply load the package by running
-```{r package load}
-library(bsvars)
-```
+10:30 - 11:00 | [Kevin Staub](http://www.kevinstaub.com/)
 
-The code below performs simple computations for sampling posterior draws of the impulse responses. The first line uploads the data from the package,another sets the seed for reproducible computations, and then the pipe `|>` is used to streamline the model specification, estimation including the first burn-in run to obtain convergence and finally, the computed impulse responses are saved in object `irf`.
-```{r estimate irf}
-#| message: false
-#| echo: true
+11:00 - 11:30 | *Coffee break at *
 
-data(us_fiscal_lsuw)
-set.seed(123)
-us_fiscal_lsuw |>
-  specify_bsvar$new(p = 1) |>
-  estimate(S = 1000, show_progress = FALSE) |> 
-  estimate(S = 2000, show_progress = FALSE) |> 
-  compute_impulse_responses(horizon = 20) -> irf
-```
+11:30 - 12:00 | [Guo Yan](https://www.guoyan.org)
 
-The code above is visible as the **R** chunk contains the setting `#| echo: true`.
+12:00 - 12:30 | [Marc Chan](https://sites.google.com/site/marcchanecon/)
 
-@tbl-irf reports the posterior means of the gross domestic product response to an unanticipated tax increase by 1 pp.
-```{r}
-#| label: tbl-irf
-#| tbl-cap: Impulse response of gdp to unanticipated tax increase by 1 pp. within two years
+12:30 - 13:00 | [Liana Jacobi](https://sites.google.com/view/ljacobi/home)
 
-irf_gdp_tax = matrix(apply(irf[3,1,1:9,],1, mean), nrow = 1)
-rownames(irf_gdp_tax) = "change in gdp [%]"
-colnames(irf_gdp_tax) = 0:8
-knitr::kable(irf_gdp_tax, digits = 3)
-```
+13:00 - 14:30 | *Lunch at*
 
-@fig-irf presents the same reaction over the horizon of five years.
-```{r}
-#| label: fig-irf
-#| fig-cap: Impulse response of gdp to unanticipated tax increase by 1 pp. within five years
+14:30 - 15:00 | [Bo Hu](https://www.econbohu.com) (Peking University)
 
-irf_median    = apply(irf[3,1,,],1, median)
-irf_hdi       = apply(irf[3,1,,],1, HDInterval::hdi, credMass = .68)
-plot(x = 0:20, y = irf_median, type = "l", bty = "n", 
-     xlab = "horizon", ylab = "change in gdp [%]",
-     ylim = range(irf_hdi))
-polygon(x = c(0:20, 20:0), y = c(irf_hdi[1,], irf_hdi[2,21:1]), col = "deepskyblue1", border = "deepskyblue1")
-lines(x = 0:20, y = irf_median, lwd = 2, col = "deepskyblue3")
-```
+15:00 - 15:30 | [David Harris](https://findanexpert.unimelb.edu.au/profile/3550-david-harris)
 
-## Some Hints
+15:30 - 16:00 | *Tea break at*
 
-Have a look at how to work with **RStudio** and **GitHub** at: [How to use git and GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/). 
+16:00 - 16:30 | [Sami Stouli](https://samistouli.com/)
 
-These are many different ways of how to work with references in **RStudio**: [Preview Citations](https://posit.co/blog/rstudio-1-4-preview-citations/).
+16:30 - 17:00 | [Yong Song](https://sites.google.com/view/ysong1)
 
-To make all the **R** code visible on the website change the settings in the preabmble of this document to:
-```
-execute:
-  echo: true
-```
-## References {.unnumbered}
+17:00 - 17:30 | [Tomasz Woźniak](https://github.com/donotdespair)
+
+18:15 - 21:00 | *Dinner at*
