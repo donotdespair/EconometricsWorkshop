@@ -20,7 +20,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 ## Program
 
- 9:00 - 9:30 | *Morning coffee at*
+ 9:00 - 9:30 | *Morning coffee*
 
  9:30 - 10:30 | [Myoung-Jae Lee](https://sites.google.com/site/mjleeku/) (Korea University)
 
@@ -30,7 +30,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 > Instrumental variable estimation of panel fixed effects fractional response models — with an application to disability support and household time allocations
 
-11:00 - 11:30 | *Coffee break at *
+11:00 - 11:30 | *Coffee break*
 
 ***
 
@@ -44,7 +44,9 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 12:30 - 13:00 | [Marc Chan](https://sites.google.com/site/marcchanecon/)
 
-13:00 - 14:30 | *Lunch at*
+> Modeling Earnings and Inequality Dynamics with Linked Employer-Employee Data
+
+13:00 - 14:30 | *Lunch*
 
 ***
 
@@ -56,7 +58,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 > Machine Learning in Econometric Models: Using SVM to Estimate and Predict Binary Choice Models
 
-16:00 - 16:30 | *Tea break at*
+16:00 - 16:30 | *Tea break*
 
 ***
 
@@ -72,7 +74,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 > Verifying Sources of Identification of Structural Vector Autoregressions Using the BETEL Framework
 
-18:30 - 21:00 | *Dinner at*
+18:30 - 21:00 | *Dinner*
 
 ## Abstracts
 
@@ -110,6 +112,12 @@ illustrates our framework.
 >
 > Impact of prior parameter assumptions on posterior statistics is commonly investigated in terms of local or pointwise assessments, in the form of derivatives or more often multiple evaluations under a set of alternative prior parameter specifications. This paper expands upon these localized strategies and introduces a new approach based on the graph of posterior statistics over prior parameter regions (sensitivity manifolds) that offers additional measures and graphical assessments of prior parameter dependence. Estimation is based on multiple point evaluations with Gaussian processes, with efficient selection of evaluation points via active learning, and is further complemented with derivative information. The application introduces a strategy to assess prior parameter dependence in a multivariate demand model with a high dimensional prior parameter space, where complex prior-posterior dependence arises from model parameter constraints. The new measures uncover a considerable prior dependence beyond parameters suggested by theory, and reveal novel interactions between the prior parameters and the elasticities
 
+
+> **Modeling Earnings and Inequality Dynamics with Linked Employer-Employee Data**
+>
+> Marc Chan
+>
+> We produce a new decomposition of wage inequality into worker- and firm-level components, and study its evolution over time. We recognize estimation biases in the various attempts in the literature that we want to correct. We construct a structural model of wages and job-to-job mobility that allows us to estimate a random effect version of the AKM model. The model is inspired from the sequential auction models in the literature, and it will be estimated on rolling sub-panels of 5 years. We shall analyze the macro-dynamics of estimated parameters, such as the variances of worker and firm effects and their covariances.
 
 > **Asymptotics of Functional Spectral Component Analysis with Weakly Dependent Data**
 >
