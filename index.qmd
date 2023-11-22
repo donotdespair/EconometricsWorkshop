@@ -74,7 +74,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 17:30 - 18:00 | [Tomasz Woźniak](https://github.com/donotdespair)
 
-> Verifying Sources of Identification of Structural Vector Autoregressions
+> Verifying Identification Sources of Structural Vector Autoregressions
 
 18:30 - 21:00 | *Dinner*
 
@@ -147,7 +147,7 @@ density prediction compared to several benchmark models including univariate Mar
 >
 > We propose a flexible parametric MIDAS model that allows for overshooting by drawing on the literature for oscillating systems. Unlike exponential Almon or beta lags, weights can change sign. The model is parsimonious, easy to estimate, and includes a decay parameter that avoids endpoint restrictions. Asymptotic consistency of the non-linear least squares estimator is established and simulations support the approach in finite samples. The model is illustrated via out of sample forecasts of monthly changes in US inflation with a daily commodity price index, and the growth rate in US industrial production with the CBOE volatility index.
 
-> **Verifying Sources of Identification of Structural Vector Autoregressions**
+> **Verifying Identification Sources of Structural Vector Autoregressions**
 >
 > Tomasz Woźniak
 >
