@@ -17,10 +17,12 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 > [1 St Heliers Street, Abbotsford 3067](https://maps.app.goo.gl/QcvH5am46RfHyEhF8)
 > 
 > **Time:** Friday, 24 November, 2023
+> 
+> **WiFi:** l: ACF p: stheliers
 
 ## Program
 
- 9:00 - 9:30 | *Morning coffee*
+ 9:00 - 9:30 | *Morning coffee at [Convent Bakery](https://abbotsfordconvent.com.au/whos-here/convent-bakery/)*
 
  9:30 - 10:30 | [Myoung-Jae Lee](https://sites.google.com/site/mjleeku/) (Korea University)
 
@@ -30,7 +32,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 > Instrumental variable estimation of panel fixed effects fractional response models — with an application to disability support and household time allocations
 
-11:00 - 11:30 | *Coffee break*
+11:00 - 11:30 | *Coffee break at [Convent Bakery](https://abbotsfordconvent.com.au/whos-here/convent-bakery/)*
 
 ***
 
@@ -46,7 +48,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 > Modeling Earnings and Inequality Dynamics with Linked Employer-Employee Data
 
-13:00 - 14:30 | *Lunch*
+13:00 - 14:30 | *Lunch at [Cam's](https://www.camskiosk.com.au/)*
 
 ***
 
@@ -58,7 +60,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 > Machine Learning in Econometric Models: Using SVM to Estimate and Predict Binary Choice Models
 
-16:00 - 16:30 | *Tea break*
+16:00 - 16:30 | *Tea break at [Cam's](https://www.camskiosk.com.au/)*
 
 ***
 
@@ -72,7 +74,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 17:30 - 18:00 | [Tomasz Woźniak](https://github.com/donotdespair)
 
-> Verifying Sources of Identification of Structural Vector Autoregressions Using the BETEL Framework
+> Verifying Sources of Identification of Structural Vector Autoregressions
 
 18:30 - 21:00 | *Dinner*
 
@@ -145,7 +147,7 @@ density prediction compared to several benchmark models including univariate Mar
 >
 > We propose a flexible parametric MIDAS model that allows for overshooting by drawing on the literature for oscillating systems. Unlike exponential Almon or beta lags, weights can change sign. The model is parsimonious, easy to estimate, and includes a decay parameter that avoids endpoint restrictions. Asymptotic consistency of the non-linear least squares estimator is established and simulations support the approach in finite samples. The model is illustrated via out of sample forecasts of monthly changes in US inflation with a daily commodity price index, and the growth rate in US industrial production with the CBOE volatility index.
 
-> **Verifying Sources of Identification of Structural Vector Autoregressions Using the BETEL Framework**
+> **Verifying Sources of Identification of Structural Vector Autoregressions**
 >
 > Tomasz Woźniak
 >
