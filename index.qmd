@@ -1,5 +1,5 @@
 ---
-title: "Econometrics Workshop 2023"
+title: "Econometrics Workshop 2024"
 # author: "Your Name"
 
 execute:
@@ -13,140 +13,135 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 ## Information
 
 > **Venue:** \
-> The Salon at Abbotsford Convent\
+> The Bishop's Parlour at Abbotsford Convent\
 > [1 St Heliers Street, Abbotsford 3067](https://maps.app.goo.gl/QcvH5am46RfHyEhF8)
 > 
-> **Time:** Friday, 24 November, 2023
+> **Time:** Friday, 22 November, 2024
 
 ## Program
 
  9:00 - 9:30 | *Morning coffee at [Convent Bakery](https://abbotsfordconvent.com.au/whos-here/convent-bakery/)*
 
- 9:30 - 10:30 | [Myoung-Jae Lee](https://sites.google.com/site/mjleeku/) (Korea University)
+ 9:30 - 10:30 | [Michael Fan](https://michaelqfan.weebly.com/) (Chinese University of Hong Kong)
 
-> Estimand of Instrumental Variable Estimator for Any Outcome and Any Heterogeneous Effect
-
-10:30 - 11:00 | [Kevin Staub](http://www.kevinstaub.com/)
-
-> Instrumental variable estimation of panel fixed effects fractional response models — with an application to disability support and household time allocations
-
-11:00 - 11:30 | *Coffee break at [Convent Bakery](https://abbotsfordconvent.com.au/whos-here/convent-bakery/)*
-
-***
-
-11:30 - 12:00 | [Sami Stouli](https://samistouli.com/)
-
-> Gaussian Transforms Modeling and the Estimation of Distributional Regression Functions
-
-12:00 - 12:30 | [Liana Jacobi](https://sites.google.com/view/ljacobi/home)
-
-> Posterior Manifolds over Prior Parameter Regions: Beyond Pointwise Sensitivity Assessments for Posterior Statistics from MCMC Inference
-
-12:30 - 13:00 | [Marc Chan](https://sites.google.com/site/marcchanecon/)
-
-> Modeling Earnings and Inequality Dynamics with Linked Employer-Employee Data
-
-13:00 - 14:30 | *Lunch at [Cam's](https://www.camskiosk.com.au/)*
-
-***
-
-14:30 - 15:30 | [Bo Hu](https://www.econbohu.com) (Peking University)
-
-> Asymptotics of Functional Spectral Component Analysis with Weakly Dependent Data
-
-15:30 - 16:00 | [Guo Yan](https://www.guoyan.org)
-
-> Machine Learning in Econometric Models: Using SVM to Estimate and Predict Binary Choice Models
-
-16:00 - 16:30 | *Tea break at [Cam's](https://www.camskiosk.com.au/)*
-
-***
-
-16:30 - 17:00 | [Yong Song](https://sites.google.com/view/ysong1)
-
-> Identification and Forecasting of Bull and Bear Markets using Multivariate Returns
-
-17:00 - 17:30 | [David Harris](https://findanexpert.unimelb.edu.au/profile/3550-david-harris)
-
-> The underdamped oscillation MIDAS model
-
-17:30 - 18:00 | [Tomasz Woźniak](https://github.com/donotdespair)
-
-> Verification of Moment Conditions Identifying Structural Vector Autoregressions
-
-18:45 - 21:00 | *Dinner at [Ichi Ni Nana](https://ichininana.com.au/)*
-
-## Abstracts
-
->**Estimand of Instrumental Variable Estimator for Any Outcome and Any Heterogeneous Effect**
->
-> *Myoung-Jae Lee*
->
-> For a binary treatment D, an outcome Y and covariates X, a linear model with a constant treatment effect is widely used, but the linear model is untenable if Y is a limited dependent variable (LDV) with a continuous covariate. Despite this problem, motivations to use a linear model are strong when D is endogenous, because dealing with a binary endogenous D and a LDV Y is particularly difficult unless a fully parametric approach is adopted. Hence, practitioners often apply instrumental variable estimator (IVE) to a linear model with a LDV Y. In this paper, firstly, we show that IVE with a binary instrument Z for D estimates a 'weighted average of X-heterogeneous effects on compliers' plus a bias term, where the bias is not zero in general unless a restrictive condition is met. Secondly, the bias can be reduced much by specifying the X-part in the linear model such that the X-part explains Z well, not necessarily Y. Thirdly, a modified IVE using the 'instrument residual' instead of Z has zero bias without the restrictive condition. An empirical analysis is provided to demonstrate these points.
-
-> **Instrumental variable estimation of panel fixed effects fractional response models — with an application to disability support and household time allocations**
->
-> Kevin Staub
->
 > TBA
 
-> **Gaussian Transforms Modeling and the Estimation of Distributional Regression Functions**
->
-> Sami Stouli
->
-> We propose flexible Gaussian representations for conditional cumulative 
-distribution functions and give a concave likelihood criterion for their 
-estimation. Optimal representations satisfy the monotonicity property of 
-conditional cumulative distribution functions, including in finite 
-samples and under general misspecification. We use these representations 
-to provide a unified framework for the flexible Maximum Likelihood 
-estimation of conditional density, cumulative distribution, and quantile 
-functions at parametric rate. Our formulation yields substantial 
-simplifications and finite sample improvements over related methods. An 
-empirical application to the gender wage gap in the United States 
-illustrates our framework.
+10:30 - 11:00 | *Coffee break at [Convent Bakery](https://abbotsfordconvent.com.au/whos-here/convent-bakery/)*
 
-> **Posterior Manifolds over Prior Parameter Regions: Beyond Pointwise Sensitivity Assessments for Posterior Statistics from MCMC Inference**
->
-> Liana Jacobi
->
-> Impact of prior parameter assumptions on posterior statistics is commonly investigated in terms of local or pointwise assessments, in the form of derivatives or more often multiple evaluations under a set of alternative prior parameter specifications. This paper expands upon these localized strategies and introduces a new approach based on the graph of posterior statistics over prior parameter regions (sensitivity manifolds) that offers additional measures and graphical assessments of prior parameter dependence. Estimation is based on multiple point evaluations with Gaussian processes, with efficient selection of evaluation points via active learning, and is further complemented with derivative information. The application introduces a strategy to assess prior parameter dependence in a multivariate demand model with a high dimensional prior parameter space, where complex prior-posterior dependence arises from model parameter constraints. The new measures uncover a considerable prior dependence beyond parameters suggested by theory, and reveal novel interactions between the prior parameters and the elasticities
+***
+
+11:00 - 11:30 | [Sami Stouli](https://samistouli.com/)
+
+> Identification of Treatment Effects under Limited Exogenous Variation
 
 
-> **Modeling Earnings and Inequality Dynamics with Linked Employer-Employee Data**
->
-> Marc Chan
->
-> We produce a new decomposition of wage inequality into worker- and firm-level components, and study its evolution over time. We recognize estimation biases in the various attempts in the literature that we want to correct. We construct a structural model of wages and job-to-job mobility that allows us to estimate a random effect version of the AKM model. The model is inspired from the sequential auction models in the literature, and it will be estimated on rolling sub-panels of 5 years. We shall analyze the macro-dynamics of estimated parameters, such as the variances of worker and firm effects and their covariances.
+11:30 - 12:00 | [Guo Yan](https://www.guoyan.org)
 
-> **Asymptotics of Functional Spectral Component Analysis with Weakly Dependent Data**
->
-> *Bo Hu*
->
-> We develop the asymptotic theory for principal spectral analysis of weakly dependent functional data in a separable Hilbert space. Principal spectral analysis is the analysis on statistical quantities that are representable by spectral characteristics of certain operators that are used to summarize the data. Principal spectral analysis includes, but is not limited to, the prominent example of principal component analysis. We give examples of principal spectral analysis with functional data, and with a version of the functional central limit theorem, we show how we may establish the limit distributions of quantities in principal spectral analysis in a unified framework, allowing the functional data to be weakly dependent.
+> On the Singularity of Machine Learning Methods for Predicting Imbalanced and Noisy Binary Data
 
-> **Machine Learning in Econometric Models: Using SVM to Estimate and Predict Binary Choice Models**
->
-> Guo Yan
->
->  We study the use of the support vector machine (SVM), a widely used machine learning classification method, for estimation and prediction in the context of binary choice models (BCM). We establish the asymptotic properties of both linear and kernel SVM, each corresponding to BCMs with a linear and a nonparametric systematic component of covariates X, respectively. In the context of nonparametric BCM, the kernel SVM cannot be used for estimation, but it does asymptotically provide an optimal classification rule for prediction. In the context of a class of linear BCM, the linear SVM is optimal for prediction if and only if it can consistently estimate the linear coefficient. Though generally inconsistent, the linear SVM is √n consistent under certain conditions on some specific distributional aspects of covariates and the error term. Under a symmetry condition on the distribution of X for consistency, we show that linear SVM can be more efficient than the most efficient estimator without exploiting any distributional information about X. We provide parallel results for quasi-maximum likelihood estimators in BCMs using the same framework. 
+12:00 - 13:30 | *Lunch at [Kappaya](https://abbotsfordconvent.com.au/whos-here/kappaya/)*
+
+***
+
+13:30 - 14:30 | [Andrés Ramírez Hassan](https://scholar.google.com/citations?user=N9yVHl4AAAAJ)
+
+> TBA
+
+14:30 - 15:00 | [Zheng Fan](https://github.com/zhengf1)
+
+> Dynamic Shrinkage and Selection in Bayesian Predictive Synthesis for Exchange Rate Forecasting
 
 
-> **Identification and Forecasting of Bull and Bear Markets using Multivariate Returns**
->
-> Yong Song
->
-> Bull and bear market identification generally focuses on a broad index of returns through a univariate analysis. This paper proposes a new approach to identify and forecast bull and bear markets through multivariate returns. The model assumes all assets are directed by a common discrete state variable from a hierarchical Markov switching model. The hierarchical specification allows the cross-section of state specific means and variances to differ over bull and bear markets. We investigate several empirically realistic specifications that permit feasible estimation even with 100 assets. Our results show that the multivariate framework provides competitive bull and bear regime identification and improves portfolio performance and
-density prediction compared to several benchmark models including univariate Markov switching models.
+15:00 - 15:30 | *Tea break at [Cam's](https://www.camskiosk.com.au/)*
 
-> **The underdamped oscillation MIDAS model**
->
-> David Harris
->
-> We propose a flexible parametric MIDAS model that allows for overshooting by drawing on the literature for oscillating systems. Unlike exponential Almon or beta lags, weights can change sign. The model is parsimonious, easy to estimate, and includes a decay parameter that avoids endpoint restrictions. Asymptotic consistency of the non-linear least squares estimator is established and simulations support the approach in finite samples. The model is illustrated via out of sample forecasts of monthly changes in US inflation with a daily commodity price index, and the growth rate in US industrial production with the CBOE volatility index.
+***
 
-> **Verification of Moment Conditions Identifying Structural Vector Autoregressions**
->
-> Tomasz Woźniak
->
-> We employ a spike’n’slab prior distribution to discriminate between moment conditions identifying a fiscal policy structural vector autoregression. Various sources of identification, including instrumental variables as well as symmetric and asymmetric kurtosis, are presented as moment conditions informing the estimation of the structural parameters. Exclusion restrictions are also considered. The spike’n’slab prior is used to verify these conditions within a single MCMC run. We use a three-variable system for the US fiscal policy analysis to show that the structural parameters are identified thanks to the non-normal innovations and exclusion restrictions rather than via instruments or heteroskedasticity.
+14:30 - 15:30 | [Chris Skeels](https://fbe.unimelb.edu.au/economics/our-people/honorary_staff/profiles/christopher-skeels)
+
+> Beyond Hypergeometric Functions For Economists
+
+15:30 - 16:00 | [Joe Hirschberg ](https://findanexpert.unimelb.edu.au/profile/502-joe-hirschberg)
+
+> The impact of Net Feed-in-Tariffs on the Electricity Consumption by Households with Photovoltaic Panels
+
+16:30 - 17:00 | [Alex de Gendre](https://adegendre.github.io/)
+
+> TBA
+
+
+18:00  | *Dinner at [Transformer Next Door](https://www.transformernextdoor.com.au/)*
+
+<!-- ## Abstracts -->
+
+<!-- >**Estimand of Instrumental Variable Estimator for Any Outcome and Any Heterogeneous Effect** -->
+<!-- > -->
+<!-- > *Myoung-Jae Lee* -->
+<!-- > -->
+<!-- > For a binary treatment D, an outcome Y and covariates X, a linear model with a constant treatment effect is widely used, but the linear model is untenable if Y is a limited dependent variable (LDV) with a continuous covariate. Despite this problem, motivations to use a linear model are strong when D is endogenous, because dealing with a binary endogenous D and a LDV Y is particularly difficult unless a fully parametric approach is adopted. Hence, practitioners often apply instrumental variable estimator (IVE) to a linear model with a LDV Y. In this paper, firstly, we show that IVE with a binary instrument Z for D estimates a 'weighted average of X-heterogeneous effects on compliers' plus a bias term, where the bias is not zero in general unless a restrictive condition is met. Secondly, the bias can be reduced much by specifying the X-part in the linear model such that the X-part explains Z well, not necessarily Y. Thirdly, a modified IVE using the 'instrument residual' instead of Z has zero bias without the restrictive condition. An empirical analysis is provided to demonstrate these points. -->
+
+<!-- > **Instrumental variable estimation of panel fixed effects fractional response models — with an application to disability support and household time allocations** -->
+<!-- > -->
+<!-- > Kevin Staub -->
+<!-- > -->
+<!-- > TBA -->
+
+<!-- > **Gaussian Transforms Modeling and the Estimation of Distributional Regression Functions** -->
+<!-- > -->
+<!-- > Sami Stouli -->
+<!-- > -->
+<!-- > We propose flexible Gaussian representations for conditional cumulative  -->
+<!-- distribution functions and give a concave likelihood criterion for their  -->
+<!-- estimation. Optimal representations satisfy the monotonicity property of  -->
+<!-- conditional cumulative distribution functions, including in finite  -->
+<!-- samples and under general misspecification. We use these representations  -->
+<!-- to provide a unified framework for the flexible Maximum Likelihood  -->
+<!-- estimation of conditional density, cumulative distribution, and quantile  -->
+<!-- functions at parametric rate. Our formulation yields substantial  -->
+<!-- simplifications and finite sample improvements over related methods. An  -->
+<!-- empirical application to the gender wage gap in the United States  -->
+<!-- illustrates our framework. -->
+
+<!-- > **Posterior Manifolds over Prior Parameter Regions: Beyond Pointwise Sensitivity Assessments for Posterior Statistics from MCMC Inference** -->
+<!-- > -->
+<!-- > Liana Jacobi -->
+<!-- > -->
+<!-- > Impact of prior parameter assumptions on posterior statistics is commonly investigated in terms of local or pointwise assessments, in the form of derivatives or more often multiple evaluations under a set of alternative prior parameter specifications. This paper expands upon these localized strategies and introduces a new approach based on the graph of posterior statistics over prior parameter regions (sensitivity manifolds) that offers additional measures and graphical assessments of prior parameter dependence. Estimation is based on multiple point evaluations with Gaussian processes, with efficient selection of evaluation points via active learning, and is further complemented with derivative information. The application introduces a strategy to assess prior parameter dependence in a multivariate demand model with a high dimensional prior parameter space, where complex prior-posterior dependence arises from model parameter constraints. The new measures uncover a considerable prior dependence beyond parameters suggested by theory, and reveal novel interactions between the prior parameters and the elasticities -->
+
+
+<!-- > **Modeling Earnings and Inequality Dynamics with Linked Employer-Employee Data** -->
+<!-- > -->
+<!-- > Marc Chan -->
+<!-- > -->
+<!-- > We produce a new decomposition of wage inequality into worker- and firm-level components, and study its evolution over time. We recognize estimation biases in the various attempts in the literature that we want to correct. We construct a structural model of wages and job-to-job mobility that allows us to estimate a random effect version of the AKM model. The model is inspired from the sequential auction models in the literature, and it will be estimated on rolling sub-panels of 5 years. We shall analyze the macro-dynamics of estimated parameters, such as the variances of worker and firm effects and their covariances. -->
+
+<!-- > **Asymptotics of Functional Spectral Component Analysis with Weakly Dependent Data** -->
+<!-- > -->
+<!-- > *Bo Hu* -->
+<!-- > -->
+<!-- > We develop the asymptotic theory for principal spectral analysis of weakly dependent functional data in a separable Hilbert space. Principal spectral analysis is the analysis on statistical quantities that are representable by spectral characteristics of certain operators that are used to summarize the data. Principal spectral analysis includes, but is not limited to, the prominent example of principal component analysis. We give examples of principal spectral analysis with functional data, and with a version of the functional central limit theorem, we show how we may establish the limit distributions of quantities in principal spectral analysis in a unified framework, allowing the functional data to be weakly dependent. -->
+
+<!-- > **Machine Learning in Econometric Models: Using SVM to Estimate and Predict Binary Choice Models** -->
+<!-- > -->
+<!-- > Guo Yan -->
+<!-- > -->
+<!-- >  We study the use of the support vector machine (SVM), a widely used machine learning classification method, for estimation and prediction in the context of binary choice models (BCM). We establish the asymptotic properties of both linear and kernel SVM, each corresponding to BCMs with a linear and a nonparametric systematic component of covariates X, respectively. In the context of nonparametric BCM, the kernel SVM cannot be used for estimation, but it does asymptotically provide an optimal classification rule for prediction. In the context of a class of linear BCM, the linear SVM is optimal for prediction if and only if it can consistently estimate the linear coefficient. Though generally inconsistent, the linear SVM is √n consistent under certain conditions on some specific distributional aspects of covariates and the error term. Under a symmetry condition on the distribution of X for consistency, we show that linear SVM can be more efficient than the most efficient estimator without exploiting any distributional information about X. We provide parallel results for quasi-maximum likelihood estimators in BCMs using the same framework.  -->
+
+
+<!-- > **Identification and Forecasting of Bull and Bear Markets using Multivariate Returns** -->
+<!-- > -->
+<!-- > Yong Song -->
+<!-- > -->
+<!-- > Bull and bear market identification generally focuses on a broad index of returns through a univariate analysis. This paper proposes a new approach to identify and forecast bull and bear markets through multivariate returns. The model assumes all assets are directed by a common discrete state variable from a hierarchical Markov switching model. The hierarchical specification allows the cross-section of state specific means and variances to differ over bull and bear markets. We investigate several empirically realistic specifications that permit feasible estimation even with 100 assets. Our results show that the multivariate framework provides competitive bull and bear regime identification and improves portfolio performance and -->
+<!-- density prediction compared to several benchmark models including univariate Markov switching models. -->
+
+<!-- > **The underdamped oscillation MIDAS model** -->
+<!-- > -->
+<!-- > David Harris -->
+<!-- > -->
+<!-- > We propose a flexible parametric MIDAS model that allows for overshooting by drawing on the literature for oscillating systems. Unlike exponential Almon or beta lags, weights can change sign. The model is parsimonious, easy to estimate, and includes a decay parameter that avoids endpoint restrictions. Asymptotic consistency of the non-linear least squares estimator is established and simulations support the approach in finite samples. The model is illustrated via out of sample forecasts of monthly changes in US inflation with a daily commodity price index, and the growth rate in US industrial production with the CBOE volatility index. -->
+
+<!-- > **Verification of Moment Conditions Identifying Structural Vector Autoregressions** -->
+<!-- > -->
+<!-- > Tomasz Woźniak -->
+<!-- > -->
+<!-- > We employ a spike’n’slab prior distribution to discriminate between moment conditions identifying a fiscal policy structural vector autoregression. Various sources of identification, including instrumental variables as well as symmetric and asymmetric kurtosis, are presented as moment conditions informing the estimation of the structural parameters. Exclusion restrictions are also considered. The spike’n’slab prior is used to verify these conditions within a single MCMC run. We use a three-variable system for the US fiscal policy analysis to show that the structural parameters are identified thanks to the non-normal innovations and exclusion restrictions rather than via instruments or heteroskedasticity. -->
