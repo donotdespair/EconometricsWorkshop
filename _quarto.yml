@@ -6,6 +6,15 @@ website:
   title: "Melbourne Metrics Lab"
   navbar:
     background: "light"
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - section: "Econometrics Workshops"
+      - file: index.qmd
+        text: "2024"
+      - file: workshop2023.qmd
+        text: "2023"
 
 bibliography: references.bib
 
