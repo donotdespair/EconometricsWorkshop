@@ -45,7 +45,7 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 13:30 - 14:30 | [Andrés Ramírez Hassan](https://scholar.google.com/citations?user=N9yVHl4AAAAJ) (Universidad EAFIT)
 
-> TBA
+> Where do unarrested criminals live? A Spatial one-sided errors model
 
 14:30 - 15:00 | [Zheng Fan](https://github.com/zhengf1)
 
@@ -56,17 +56,17 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 
 ***
 
-14:30 - 15:30 | [Chris Skeels](https://fbe.unimelb.edu.au/economics/our-people/honorary_staff/profiles/christopher-skeels)
+15:30 - 16:00 | [Chris Skeels](https://fbe.unimelb.edu.au/economics/our-people/honorary_staff/profiles/christopher-skeels)
 
 > Beyond Hypergeometric Functions For Economists
 
-15:30 - 16:00 | [Joe Hirschberg ](https://findanexpert.unimelb.edu.au/profile/502-joe-hirschberg)
+16:00 - 16:30 | [Joe Hirschberg ](https://findanexpert.unimelb.edu.au/profile/502-joe-hirschberg)
 
 > The impact of Net Feed-in-Tariffs on the Electricity Consumption by Households with Photovoltaic Panels
 
 16:30 - 17:00 | [Alexandra de Gendre](https://adegendre.github.io/)
 
-> TBA
+> Detecting Local Non-Compliance with Random Treatment Assignment in Quasi-Experiments, with an Application to Ability Peer Effects
 
 
 18:00  | *Dinner at [Transformer Next Door](https://www.transformernextdoor.com.au/)*
@@ -97,11 +97,11 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 > When analyzing binary choice problems with imbalanced classes, where the binary outcome falls into one class more frequently than another, many econometric and machine learning methods tend to underpredict the realization of the minority class. The issue can be more severe when the explanatory variables have a low signal strength for predicting the binary outcome. In this paper, we present a framework to analyze how fast a general method’s predictive performance degenerates in the following sense: It overpredicts the realization of the majority class and approaches a singularity point, at which it predicts only the majority class or purely randomly. We establish the degeneracy rate of the SVM and logistic regression, two widely used machine learning methods for classification, under different settings on the degree of class imbalance and the noise-to-signal ratio. We find that the SVM degenerates at least exponentially fast when both the degree of class imbalance and the noise-to-signal ratio increase, whereas logistic regression has a degeneracy rate of√n. Our results have important implications for selecting appropriate methods to analyze binary choice problems with imbalanced and noisy data.
 
 
-> **TBA**
+> **Where do unarrested criminals live? A Spatial one-sided errors model**
 >
 > *Andrés Ramírez Hassan*
 >
-> TBA
+> This paper analyzes the rates of arrested individuals living per neighborhood in Medellín (Colombia) to identify neighborhoods where relatively more uncaptured criminals potentially live. We exploit a novel dataset consisting of confidential reports of residential addresses of individuals at the moment of being arrested by the police. We find that unarrested hot regions depend both on the crime typology and space. Particularly, we find that homicide and drug dealing are strongly linked, whereas there are common links between car and motorcycle thefts. Our model takes into account persistent and transient one-sided error components and spatial effects within a longitudinal data structure. Simulation exercises suggest that our proposal has good finite sample performance. In particular, we find that the predictive intervals have accurate coverage which is robust to endogeneity. Moreover, our proposal has good predictive accuracy, since the hot regions are well-classified even in the presence of endogeneity.
 
 
 > **Dynamic Shrinkage and Selection in Bayesian Predictive Synthesis for Exchange Rate Forecasting**
@@ -125,8 +125,8 @@ This is a website of the Econometrics Workshop at the Department of Economics of
 >  TBA
 
 
-> **TBA**
+> **Detecting Local Non-Compliance with Random Treatment Assignment in Quasi-Experiments, with an Application to Ability Peer Effects**
 >
 > *Alexandra de Gendre*
 >
-> TBA
+> We develop a method to detect local non-compliance with a random treatment to recover valid quasi-experiments from existing data. Our approach combines simulation-based methods and latent class modelling in an intuitive way, can detect and characterize non-compliant risk sets, and is computationally undemanding. To illustrate its usefulness, we use it to estimate ability peer effects in Taiwan, where we have unusually rich data and a national mandate to randomly assign students to classrooms within schools, but with partial non-compliance. After recovering a valid quasi-experiment, we first estimate ability peer effects in line with other studies. We then document precisely estimated null effects on 18 potential mechanisms, many of which have been hypothesized but never tested. Our application shows how to use our method to expand the causal evidence base using existing datasets.
